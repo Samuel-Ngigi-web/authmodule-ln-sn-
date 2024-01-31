@@ -63,7 +63,7 @@ app.post("/register", async (req, res) => {
 });
 //LOGIN get ROUTE
 app.get("/login", function (req, res) {
-  res.sendFile(__dirname + "/src/forms/Login.html");
+  res.sendFile(__dirname + "/src/Forms/Login.html");
 });
 
 //LOGIN post ROUTE
