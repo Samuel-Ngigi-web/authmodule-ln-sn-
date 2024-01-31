@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../public/forms.css" />
+    <title>sample login form</title>
+  </head>
+  <body>
+    <div class="form-div">
+      <form action="/login" method="post" class="form-1">
+        <h1>Login</h1>
+        <p class="form-p1"><label>Username</label></p>
+        <p>
+          <input
+            name="username"
+            type="text"
+            placeholder="input your username"
+            style="height: 30px"
+            required
+          />
+        </p>
+        <p class="form-p2"><label>Password</label></p>
+        <p class="form-p3">
+          <input
+            name="password"
+            type="password"
+            placeholder="type your password"
+            required
+          />
+        </p>
+        <p class="form-p4"><a href="">Forgot password?</a></p>
+        <p class="form-p5"><input type="submit" value="login" /></p>
+
+        <p>Or</p>
+      </form>
+      <form action="/register" method="get">
+        <button type="submit">sign up?</button>
+      </form>
+    </div>
+    <script src="../../app.js"></script>
+  </body>
+</html>

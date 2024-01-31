@@ -1,0 +1,53 @@
+.form-div {
+  width: 300px;
+  position: absolute;
+  left: 500px;
+  top: 180px;
+  text-align: center;
+  height: auto;
+  box-shadow: 0.8px 0px 16px;
+  border-radius: 5px;
+}
+.form-div a {
+  color: green;
+  text-decoration: none;
+}
+.form-p1 {
+}
+.form-p2 {
+}
+.form-p3 input {
+  height: 30px;
+}
+.form-p4 {
+}
+.form-p5 input {
+  width: 150px;
+  background-color: rgb(41, 212, 175);
+  border: none;
+  height: 30px;
+}
+.form-p5 input:hover {
+  cursor: pointer;
+  background-color: rgb(54, 192, 116);
+}
+.form-p6 {
+}
+.form-p7 {
+}
+.bdiv-1 {
+  text-align: center;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.create-btn {
+  width: 150px;
+  background-color: rgb(41, 212, 175);
+  border: none;
+  height: 30px;
+  border-radius: 2px;
+}
+.create-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
