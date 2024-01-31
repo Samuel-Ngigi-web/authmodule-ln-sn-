@@ -7,63 +7,65 @@
     <title>sample login/signup form</title>
   </head>
   <body>
-    <div class="form-div">
-      <form action="/register" method="post" class="form-1">
-        <h1>Signup</h1>
-        <p class="form-p1"><label>First name</label></p>
-        <p>
-          <input
-            name="fname"
-            id="fName"
-            type="text"
-            placeholder="first name"
-            style="height: 30px"
-            required
-          />
-        </p>
-        <p class="form-p1"><label>Last name</label></p>
-        <p>
-          <input
-            name="lname"
-            id="lName"
-            type="text"
-            placeholder="last name"
-            style="height: 30px"
-            required
-          />
-        </p>
-        <p class="form-p2"><label>Password</label></p>
-        <p class="form-p3">
-          <input
-            name="password"
-            id="password"
-            type="password"
-            placeholder="password"
-            required
-          />
-        </p>
-        <p class="form-p2"><label>Confirm password</label></p>
-        <p class="form-p3">
-          <input
-            name="confirmPassword"
-            id="confirmPassword"
-            type="password"
-            placeholder="confirm password"
-            required
-          />
-        </p>
-        <small><a href="">Read Terms and Conditions</a></small>
-        <p><input id="iAgree" type="checkbox" value="cheked" />I Agree</p>
-        <p class="ctr-btn">
-          <button class="create-btn" type="submit" value="">
-            Create account
-          </button>
-        </p>
-      </form>
+    <div class="main-div">
+      <div class="form-div">
+        <form action="/register" method="post" class="form-1">
+          <h1>Signup</h1>
+          <p class="form-p1"><label>First name</label></p>
+          <p>
+            <input
+              name="fname"
+              id="fName"
+              type="text"
+              placeholder="first name"
+              style="height: 30px"
+              required
+            />
+          </p>
+          <p class="form-p1"><label>Last name</label></p>
+          <p>
+            <input
+              name="lname"
+              id="lName"
+              type="text"
+              placeholder="last name"
+              style="height: 30px"
+              required
+            />
+          </p>
+          <p class="form-p2"><label>Password</label></p>
+          <p class="form-p3">
+            <input
+              name="password"
+              id="password"
+              type="password"
+              placeholder="password"
+              required
+            />
+          </p>
+          <p class="form-p2"><label>Confirm password</label></p>
+          <p class="form-p3">
+            <input
+              name="confirmPassword"
+              id="confirmPassword"
+              type="password"
+              placeholder="confirm password"
+              required
+            />
+          </p>
+          <small><a href="">Read Terms and Conditions</a></small>
+          <p><input id="iAgree" type="checkbox" value="cheked" />I Agree</p>
+          <p class="ctr-btn">
+            <button class="create-btn" type="submit" value="">
+              Create account
+            </button>
+          </p>
+        </form>
 
-      <form action="/login" method="get">
-        <button type="submit">Already have an account?</button>
-      </form>
+        <form action="/login" method="get">
+          <button type="submit">Already have an account?</button>
+        </form>
+      </div>
     </div>
     <script src="../../app.js"></script>
   </body>
